@@ -4,8 +4,8 @@
   "version": "0.1.0",
   "identifier": "com.tauri.dev",
   "build": {
-    "frontendDist": "./dist",
-    "devUrl": "http://127.0.0.1:8080",
+    "frontendDist": "../tauri-frontend/dist",
+    "devUrl": "http://localhost:1420/",
     "beforeDevCommand": "npm run dev",
     "beforeBuildCommand": "npm run build"
   },
